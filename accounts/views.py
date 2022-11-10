@@ -3,8 +3,6 @@ from django.views.generic import CreateView, UpdateView, DetailView
 from .forms import CustomUserCreationForm
 from .models import Profile
 
-# Create your views here.
-
 class SignUpView(CreateView):
     form_class = CustomUserCreationForm
     success_url = reverse_lazy('login')
@@ -19,3 +17,4 @@ class ProfileEditView(UpdateView):
 class ProfilePageView(DetailView):
     model = Profile 
     template_name = 'registration/user_profile.html'
+
