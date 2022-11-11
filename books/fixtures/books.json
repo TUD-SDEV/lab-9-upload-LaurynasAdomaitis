@@ -1,0 +1,35 @@
+[
+    {
+        "model": "books.book",
+        "pk": "30b444c5-5ea1-4609-a94f-609fa3023898",
+        "fields": {
+            "title": "Python Cookbook Recipes",
+            "author": "Brain K. Jones",
+            "price": "40.00",
+            "date_publication": "2021-09-14",
+            "cover": "covers/PythonCookbook.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "4a22bf4c-c26f-422b-9ad5-518caf91f54d",
+        "fields": {
+            "title": "Your Name",
+            "author": "Kim Stan",
+            "price": "20.00",
+            "date_publication": "2022-06-23",
+            "cover": ""
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "f6b8d2f9-5525-499e-9a05-fbabfbc2ca8f",
+        "fields": {
+            "title": "Of Mice and Men",
+            "author": "John Steinbeck",
+            "price": "8.99",
+            "date_publication": "2022-11-08",
+            "cover": ""
+        }
+    }
+]
